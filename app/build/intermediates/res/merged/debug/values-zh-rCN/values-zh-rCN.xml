@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="advance">高级</string>
+    <string name="app_name">RFID 高频演示</string>
+    <string name="atqa">ATQA: </string>
+    <string name="back">返回</string>
+    <string name="backup">备份</string>
+    <string formatted="false" name="block_formatter">%d 个块，每块含 %d 字节\n</string>
+    <string name="can_read_only">支持只读设置</string>
+    <string name="cancel">取消</string>
+    <string name="check_tmp">查看本次</string>
+    <string name="clear">清空</string>
+    <string name="confirm">确定</string>
+    <string name="content_ascii">内容: </string>
+    <string name="content_bytes">原始字节: 编辑?</string>
+    <string formatted="false" name="current_size_formatter">当前消息长度: %s 字节\n</string>
+    <string name="data_access">数据访问权限: </string>
+    <string name="data_export">数据导出</string>
+    <string name="data_viewer">数据浏览</string>
+    <string name="dsf_id">DSF_ID: </string>
+    <string name="encoding">编码: </string>
+    <string name="error">错误</string>
+    <string name="help_explain">帮助与说明</string>
+    <string name="help_url">file:///android_asset/READMECN.html</string>
+    <string name="hint_write_mime_bytes">例如 72–101–108–108–111</string>
+    <string name="hint_write_mime_content">例如 Hello World!</string>
+    <string name="hint_write_mime_type">例如 text/plain</string>
+    <string name="hint_write_uri">例如 http://www.vim.org/</string>
+    <string name="historical_bytes">ATS Historical bytes:\n</string>
+    <string formatted="false" name="infos_formatter">软件版本： v%s-%d</string>
+    <string name="isodep_tech">ISO 14443–4 compatible\n</string>
+    <string name="lang">语言: </string>
+    <string name="main_title">高频演示实例</string>
+    <string formatted="false" name="maximum_size_formatter">最大消息长度: %s 字节\n</string>
+    <string name="mifare_classic_tech">MIFARE Classic compatible\n</string>
+    <string name="mifare_ultralight_tech">MIFARE Ultralight compatible\n</string>
+    <string name="mime">MIME: </string>
+    <string name="mime_record">MIME 记录</string>
+    <string name="more">更多</string>
+    <string name="msg_bad_encoding">内部编码错误！</string>
+    <string name="msg_clear_done">数据清空完毕！</string>
+    <string name="msg_data_has_been_saved">当前数据已存储！</string>
+    <string name="msg_got_tag_in_writer">扫描到新的卡片，是否查看相关信息？</string>
+    <string name="msg_nfc_not_working">无法使用，因为 NFC 已关闭。请打开 NFC 使用本软件。</string>
+    <string name="msg_no_data_in_saved_table">您还没有手动保存扫描后的数据，请保存后再查看。</string>
+    <string name="msg_no_tag_scanned">没有扫描到可识别的卡片，请将卡片放置在 PDA 数字按键部位，待读卡器识别。</string>
+    <string formatted="false" name="msg_tag_discovered_r_formatter">扫描到卡片 (%s)，可能拥有写入权限，您可以读取、写入或者取消本次操作。</string>
+    <string formatted="false" name="msg_tag_discovered_rw_formatter">扫描到卡片 (%s)，并发现写入权限，您可以读取、写入或者取消本次操作。</string>
+    <string name="msg_tag_has_been_saved">当前卡片的内容保存成功</string>
+    <string name="msg_tag_has_not_been_saved">错误，当前卡片的内容保存失败！</string>
+    <string name="msg_view_tag_404">错误，数据库中找不到该条目！</string>
+    <string name="msg_write_failed">写入失败，卡片没有写权限或出现写入异常。</string>
+    <string name="msg_write_failed_with_bad_uri">写入失败，请书写合理的 URI 信息。</string>
+    <string name="msg_write_mime_tips">MIME 类型必填，内容支持中英文，可直接编辑原始字节(每个字节由十进制数字标识，分隔符使用减号)。</string>
+    <string name="msg_write_success">写入成功，重新扫描卡片可查看写入内容。</string>
+    <string name="msg_write_uri_tips">编辑 URI 数据时请用英文指明协议名称，所有中文字符都将进行转义处理。</string>
+    <string name="msg_write_without_mime_ascii">请先输入有效的 MIME 内容再执行写入操作！</string>
+    <string name="msg_write_without_mime_bytes">请先输入有效的 MIME 原始字节再执行写入操作！</string>
+    <string name="msg_write_without_mime_type">请先输入有效的 MIME 类型再执行写入操作！</string>
+    <string name="msg_write_without_uri_content">请先输入有效的 URI 内容再执行写入操作！</string>
+    <string name="msg_writer_tips_without_tag">只有写权限的卡片才能执行写入操作，选择写入类型(URI 或 MIME)并编辑相关内容，然后将卡片放于 PDA 底部，待设备识别后点击左侧的 “写入” 按钮等待结果。</string>
+    <string name="msg_writing_please_wait">正在写入标签，请稍候 …</string>
+    <string name="nfca_tech">ISO 14443–3A compatible\n</string>
+    <string name="nfcb_procotol_info">ProcotolInfo: </string>
+    <string name="nfcb_tech">ISO 14443–3B compatible\n</string>
+    <string name="nfcf_tech">JIS 6319–4 compatible\n</string>
+    <string name="nfcv_tech">ISO 15693 compatible\n</string>
+    <string name="plain_text">text/plain</string>
+    <string name="protocol_info">协议信息</string>
+    <string name="raw_bytes">原始字节:</string>
+    <string name="read">读取</string>
+    <string name="read_only">只读</string>
+    <string name="read_write">可读可写</string>
+    <string name="readable_value">可读数据:\n</string>
+    <string name="sak">SAK: </string>
+    <string name="save">保存</string>
+    <string name="scan_time">扫描时间: </string>
+    <string formatted="false" name="sector_formatter">%d 个扇区，每个扇区含 %d 块\n</string>
+    <string formatted="false" name="sector_only">%d 个扇区</string>
+    <string name="set_info">设置信息</string>
+    <string name="settings">设置</string>
+    <string formatted="false" name="size_formatter">总大小: %d 字节\n</string>
+    <string name="size_info">容量信息</string>
+    <string name="tag_details">标签详情</string>
+    <string name="tag_info">卡片信息</string>
+    <string name="tag_reader">标签读取</string>
+    <string name="tag_writer">标签写入</string>
+    <string name="tech_info">技术信息</string>
+    <string name="tips">提示</string>
+    <string name="tmp_scan_data">本次扫描记录</string>
+    <string name="type">类型: </string>
+    <string name="uid">UID (hex): </string>
+    <string name="uid_dec">UID (dec): </string>
+    <string name="unreadable_or_unauthorized">该卡片为空或未授权\n</string>
+    <string name="uri_record">URI 记录</string>
+    <string name="warning">警告</string>
+    <string name="write">写入</string>
+    <string name="write_mime">写入 MIME</string>
+    <string name="write_uri">写入 URI</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.senter.demo.hf"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.senter.demo.hf.MainActivity"
+            android:label="@string/main_title"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.senter.demo.hf.ReaderActivity"
+            android:icon="@drawable/ic_launcher_reader"
+            android:label="@string/tag_reader"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/filter_nfc" />
+        </activity>
+        <activity
+            android:name="com.senter.demo.hf.WriterActivity"
+            android:icon="@drawable/ic_launcher_writer"
+            android:label="@string/tag_writer"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/filter_nfc" />
+        </activity>
+        <activity
+            android:name="com.senter.demo.hf.ViewerActivity"
+            android:icon="@drawable/ic_launcher_viewer"
+            android:label="@string/data_viewer"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.senter.demo.hf.HelperActivity"
+            android:icon="@drawable/ic_launcher_helper"
+            android:label="@string/help_explain"
+            android:theme="@android:style/Theme.Holo.Light" />
+    </application>
+
+</manifest>

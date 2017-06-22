@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_reader.png",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_reader.png"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_helper.png",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_helper.png"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_export.png",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_export.png"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_viewer.png",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_viewer.png"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_writer.png",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_writer.png"
+    }
+]

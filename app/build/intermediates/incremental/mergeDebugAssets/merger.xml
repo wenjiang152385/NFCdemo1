@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\gitcode\mbroadcast\trunk\app\src\main\assets"><file name="notify.mp3" path="E:\gitcode\mbroadcast\trunk\app\src\main\assets\notify.mp3"/><file name="READMECN.html" path="E:\gitcode\mbroadcast\trunk\app\src\main\assets\READMECN.html"/><file name="READMEEN.html" path="E:\gitcode\mbroadcast\trunk\app\src\main\assets\READMEEN.html"/></source></dataSet><dataSet config="debug"><source path="E:\gitcode\mbroadcast\trunk\app\src\debug\assets"/></dataSet></merger>

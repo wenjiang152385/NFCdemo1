@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="ltr" xml:lang="zh-CN">
+	<head>
+		<title>RFID 高频演示实例帮助</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<style>
+			p {
+				text-indent: 32px;
+			}
+			table {
+				border-collapse: collapse;
+				// border-spacing: 0;
+			}
+			td {
+				border: 1px solid block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="content">目录</h1>
+		<a href="#ch1">标签读取</a><br />
+		<a href="#ch2">标签写入</a><br />
+		<a href="#ch3">记录浏览</a><br />
+		<a href="#ch4">词汇</a><br />
+		
+		<h1 id="ch1">标签读取</h1>
+		<p>用于读取可识别的 RFID 高频卡片，支持常见标准如：ISO 14443-3A,
+		ISO 14443-3B, ISO 14443-4, JIS 6319-4, ISO 15693, MifareClassic,
+		以及 MifareUltralight。提供了方便的数据存储功能，可用于日后查看。</p>
+		<h3>使用说明：</h3>
+		<p>请将卡片放置在 PDA 数字按键部位，若设备识别该卡片，将会自动弹出其详细信息。
+		点击 “查看本次”，可浏览软件当前扫描过所有卡片信息；点击 “保存”，
+		会当前扫描结果永久保存到数据库，以供查看备案。</p>
+		<a href="#content">返回目录</a>
+		
+		<h1 id="ch2">标签写入</h1>
+		<p>用于写入卡片，仅针对有权限读写的卡片进行该操作。注意：
+		写入操作会擦除卡片之前的数据，操作需谨慎。</p>
+		<h3>使用说明：</h3>
+		<p>先选择写入数据的类型，URI 类型只需要填写具体的数据即可，中英文都支持；
+		MIME 类型时，要注明 MIME 类型，名称不宜超过 255 个字节；内容支持中英文，
+		也可直接编辑原始字节，为方便输入，使用十进制标明每个字节数值，用减号分割，
+		如果输入的某个字节的数值溢出，溢出部分将自动舍弃。点击 “写入” 等待结果。</p>
+		<a href="#content">返回目录</a>
+		
+		<h1 id="ch3">记录浏览</h1>
+		<p>查看之前保存过的读卡记录，可通过条目查看当时卡片的详细信息，
+		可清空已保存的记录。</p>
+		<h3>使用说明：</h3>
+		<p>记录条目中包含UID(卡号)以及扫描时间，可根据这两项选择需要查看的内容，
+		点击对应条目即可阅读详细信息。点击 “清空” 按钮将当前列表中的数据清空。</p>
+		<a href="#content">返回目录</a>
+
+		<h1 id="ch4">词汇</h1>
+		<table>
+			<tr><td>RFID</td><td>射频识别</td></tr>
+			<tr><td>NFC</td><td>近场通讯</td></tr>
+			<tr><td>PDA</td><td>掌上电脑</td></tr>
+			<tr><td>URI</td><td>统一资源描述符</td></tr>
+			<tr><td>MIME</td><td>多用途互联网邮件扩展</td></tr>
+			<tr><td>ASCII</td><td>美国信息交换标准代码</td></tr>
+			<tr><td>ISO</td><td>国际标准化组织</td></tr>
+			<tr><td>JIS</td><td>日本工业标准</td></tr>
+			<tr><td>NXP</td><td>恩智浦半导体</td></tr>
+			<tr><td>Mifare</td><td>恩智浦半导体(NXP)商标之一</td></tr>
+			<tr><td>UID</td><td>用户标识符</td></tr>
+		</table>
+		<a href="#content">返回目录</a>
+		
+	</body>
+</html>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edittext_horizontal_margin">6dp</dimen>
+    <dimen name="launcher_button_horizontal_margin">4dp</dimen>
+    <dimen name="launcher_button_vertical_margin">4dp</dimen>
+    <dimen name="launcher_button_vertical_padding">20dp</dimen>
+    <dimen name="listview_title_horizontal_padding">8dp</dimen>
+    <dimen name="listview_title_vertical_padding">4dp</dimen>
+    <dimen name="radiogroup_margin">6dp</dimen>
+    <dimen name="textview_tips_vertical_margin">6dp</dimen>
+    <string name="action_settings">Setting</string>
+    <string name="advance">Advance</string>
+    <string name="app_name">RFID HF demo</string>
+    <string name="atqa">ATQA: </string>
+    <string name="back">Back</string>
+    <string name="backup">Backup</string>
+    <string formatted="false" name="block_formatter">%d blocks, each block contains %d bytes\n</string>
+    <string name="can_read_only">support read only setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_tmp">Review</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="content_ascii">Content: </string>
+    <string name="content_bytes">Raw bytes: edit?</string>
+    <string formatted="false" name="current_size_formatter">Current Message length: %s bytes\n</string>
+    <string name="data_access">Data access authority: </string>
+    <string name="data_export">Data export</string>
+    <string name="data_viewer">Data Browse</string>
+    <string name="dsf_id">DSF_ID: </string>
+    <string name="encoding">Code: </string>
+    <string name="error">Error</string>
+    <string name="help_explain">Help</string>
+    <string name="help_url">file:///android_asset/READMEEN.html</string>
+    <string name="hint_write_mime_bytes">For example 72–101–108–108–111</string>
+    <string name="hint_write_mime_content">For example Hello World!</string>
+    <string name="hint_write_mime_type">For example text/plain</string>
+    <string name="hint_write_uri">For example http://www.vim.org/</string>
+    <string name="historical_bytes">ATS Historical bytes:\n</string>
+    <string formatted="false" name="infos_formatter">Software version： v%s-%d</string>
+    <string name="isodep_tech">ISO 14443–4 compatible\n</string>
+    <string name="lang">Language: </string>
+    <string name="main_title">Rfid HF Demo</string>
+    <string formatted="false" name="maximum_size_formatter">Maximum message length: %s bytes\n</string>
+    <string name="mifare_classic_tech">MIFARE Classic compatible\n</string>
+    <string name="mifare_ultralight_tech">MIFARE Ultralight compatible\n</string>
+    <string name="mime">MIME: </string>
+    <string name="mime_record">MIME record</string>
+    <string name="more">More</string>
+    <string name="msg_bad_encoding">Internal coding error!</string>
+    <string name="msg_clear_done">Completely empty the data</string>
+    <string name="msg_data_has_been_saved">Current data has been stored.</string>
+    <string name="msg_got_tag_in_writer">Scanned a new tag, are you sure to view related information?</string>
+    <string name="msg_nfc_not_working">Can not use because NFC is turned off. Open NFC to use this software.</string>
+    <string name="msg_no_data_in_saved_table">You have not manually saved the scanned data, please save and then view</string>
+    <string name="msg_no_tag_scanned">Not scan recognizable tag, place the tag on the PDA keypad to let the reader identify.</string>
+    <string formatted="false" name="msg_tag_discovered_r_formatter">Scan to Tag(%s)), may have write permissions, you can read, write or cancel the operation.</string>
+    <string formatted="false" name="msg_tag_discovered_rw_formatter">Scan to Tag(%s),and found write permission, you can read, write or cancel the operation</string>
+    <string name="msg_tag_has_been_saved">Successfully save the contents of the current tag.</string>
+    <string name="msg_tag_has_not_been_saved">Error, unsuccessfully save the contents of the current tag.</string>
+    <string name="msg_view_tag_404">Error, item is not found in the database.</string>
+    <string name="msg_write_failed">Failed write, the tag does not have write permission or there is a exception</string>
+    <string name="msg_write_failed_with_bad_uri">Failed write, please write reasonable URI information</string>
+    <string name="msg_write_mime_tips">MIME type is required, contents support in English and Chinese, you can directly edit the Raw bytes (each byte is identified by a decimal number, delimiter will use minus)</string>
+    <string name="msg_write_success">Successfully write, re-scan the tag to see the written content</string>
+    <string name="msg_write_uri_tips">when edit URI data, please point the protocol name in English, all Chinese characters will be escaped.</string>
+    <string name="msg_write_without_mime_ascii">Please enter a valid MIME content and then perform the write operation</string>
+    <string name="msg_write_without_mime_bytes">Please enter a valid MIME raw bytes and then perform the write operation</string>
+    <string name="msg_write_without_mime_type">Please enter a valid MIME type and then perform the write operation.</string>
+    <string name="msg_write_without_uri_content">Please enter a valid URI content and then perform the write operation.</string>
+    <string name="msg_writer_tips_without_tag">Only the tags with write permission can perform a write operation, select the type of write mode (URI or MIME) and edit the content, and then put the tag at the bottom of the PDA, allow the device to identify then click on "Write" button on the left part to wait for the results.</string>
+    <string name="msg_writing_please_wait">Writing to the tag. please wait…</string>
+    <string name="nfca_tech">ISO 14443–3A compatible\n</string>
+    <string name="nfcb_procotol_info">ProcotolInfo: </string>
+    <string name="nfcb_tech">ISO 14443–3B compatible\n</string>
+    <string name="nfcf_tech">JIS 6319–4 compatible\n</string>
+    <string name="nfcv_tech">ISO 15693 compatible\n</string>
+    <string name="plain_text">text/plain</string>
+    <string name="protocol_info">Protocol Information</string>
+    <string name="raw_bytes">Raw bytes:</string>
+    <string name="read">Read</string>
+    <string name="read_only">Read only</string>
+    <string name="read_write">Readable and writable</string>
+    <string name="readable_value">Readable data:\n</string>
+    <string name="sak">SAK: </string>
+    <string name="save">Save</string>
+    <string name="scan_time">Scan time: </string>
+    <string formatted="false" name="sector_formatter">%d sectors，each sector contains %d blocks\n</string>
+    <string formatted="false" name="sector_only">%d sectors</string>
+    <string name="set_info">Setting information</string>
+    <string name="settings">Settings</string>
+    <string formatted="false" name="size_formatter">Total: %d bytes\n</string>
+    <string name="size_info">Capacity information</string>
+    <string name="tag_details">Tag detail</string>
+    <string name="tag_info">Tag information</string>
+    <string name="tag_reader">Tag Read</string>
+    <string name="tag_writer">Tag Write</string>
+    <string name="tech_info">Technical Information</string>
+    <string name="tips">Tips</string>
+    <string name="tmp_scan_data">Scan record</string>
+    <string name="type">Type: </string>
+    <string name="uid">UID (hex): </string>
+    <string name="uid_dec">UID (dec): </string>
+    <string name="unreadable_or_unauthorized">The tag is empty or unauthorized\n</string>
+    <string name="uri_record">URI record</string>
+    <string name="warning">Warning</string>
+    <string name="write">Write</string>
+    <string name="write_mime">Write MIME</string>
+    <string name="write_uri">Write URI</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

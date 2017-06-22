@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_reader.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\listview_reader.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_writer.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\activity_writer.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_helper.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\activity_helper.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nfc_main.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\activity_nfc_main.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reader.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\activity_reader.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_viewer.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\listview_viewer.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\gitcode\\mbroadcast\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewer.xml",
+        "source": "E:\\gitcode\\mbroadcast\\trunk\\app\\src\\main\\res\\layout\\activity_viewer.xml"
+    }
+]

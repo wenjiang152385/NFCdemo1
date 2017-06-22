@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="ltr" xml:lang="zh-CN">
+	<head>
+		<title>RFID Hf demo help</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<style>
+			p {
+				text-indent: 32px;
+			}
+			table {
+				border-collapse: collapse;
+				// border-spacing: 0;
+			}
+			td {
+				border: 1px solid block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="content">Contents</h1>
+		<a href="#ch1">Tag Read</a><br />
+		<a href="#ch2">Tag Write</a><br />
+		<a href="#ch3">Record Browse</a><br />
+		<a href="#ch4">Vocabulary</a><br />
+		
+		<h1 id="ch1">Tag Read</h1>
+		<p>RFID HF card supports for common standards such as: ISO 14443-3A, ISO 14443-3B, ISO 14443-4, JIS 6319-4, ISO 15693, Mifare Classic, and Mifare Ultralight.
+			It provides a convenient data storage function and can be used for future viewing.</p>
+		<h3>Instructions :</h3>
+		<p>Put the card on the PDA keypad parts. If the device recognizes the card, it will automatically pop up its details.
+		Click on "Review" can browse through all the current scan software card information; click "Save", the current scan results will be permanently saved to the database for viewing the record. </p>
+		<a href="#content">Back to Contents</a>
+		
+		<h1 id="ch2">Tag Write</h1>
+		<p>Used to write into cards and the card must have rights to read and write.
+		 Note: The write operation will erase the data in the card so the operation need to be cautious.</p>
+		<h3>Instructions :</h3>
+		<p>Firstly select the type of write data, URI types is only required to complete specific data and supports both Chinese and English; MIME type needs to indicate the MIME type; the name should not be more than 255 bytes; contents support both Chinese and English; it can also directly edit raw bytes. For convenient, use decimal to mark the value of each byte; use a minus sign to separate. If you enter any bytes overflow, the overflowed portion will be automatically discarded. Click on the "Write" to wait for the results.</p>
+		<a href="#content">Back to Contents</a>
+		
+		<h1 id="ch3">Record Browse</h1>
+		<p>View records previously saved, you can view the card information through the contents and can also clear the saved records.</p>
+		<h3>Instructions :</h3>
+		<p>Record contains the UID (card) and scanning time, according to these two items to choose what you want to check. Click the corresponding items to read details. Click the "Clear" button to clear the current data in the list.</p>
+		<a href="#content">Back to Contents</a>
+
+		<h1 id="ch4">Vocabulary</h1>
+		<table>
+			<tr><td>RFID</td><td>Radio Frequency Identification</td></tr>
+			<tr><td>NFC</td><td>Near Field Communication</td></tr>
+			<tr><td>PDA</td><td>Pocket PC</td></tr>
+			<tr><td>URI</td><td>Uniform Resource Identifier</td></tr>
+			<tr><td>MIME</td><td>Multipurpose Internet Mail Extensions</td></tr>
+			<tr><td>ASCII</td><td>American Standard Code for Information Interchange</td></tr>
+			<tr><td>ISO</td><td>International Standardization Organization</td></tr>
+			<tr><td>JIS</td><td>Japanese Industrial Standard</td></tr>
+			<tr><td>NXP</td><td>NXP Semiconductors</td></tr>
+			<tr><td>Mifare</td><td>One brand of NXP Semiconductors (NXP)</td></tr>
+			<tr><td>UID</td><td>User ID</td></tr>
+		</table>
+		<a href="#content">Back to Contents</a>
+		
+	</body>
+</html>

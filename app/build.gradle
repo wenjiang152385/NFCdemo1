@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "com.senter.demo.hf"
+        minSdkVersion 16
+        targetSdkVersion 24
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:24.2.0'
+}
